@@ -1,56 +1,58 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!-- InstanceBeginEditable name="doctitle" -->
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
     <title>FITSEC - CTF</title>
-    <!-- InstanceEndEditable -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
 
     <link href="img/FITSECCrest.png" rel="icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
     <link href="scripts/main.css" rel="stylesheet" type="text/css" />
-    <!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
 </head>
 
-<body onload="genBackground()">
-    <nav class="navbar navbar-default navbar-fixed-top">
+<body class='pt-5' onload="genBackground()">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-lg">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span
-            class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                <a class="navbar-brand" href="index.html"><img src="img/FITSECCrest.png" height="100%" /></a>
-                <a class="navbar-brand" href="index.html">FITSEC</a></div>
+                <a class="navbar-brand" href="index.html">
+                    <img class='nav-image' src="img/FITSECCrest.png" height="50" />
+                </a>
+                <a class="navbar-brand" href="index.html">FITSEC</a>
+            </div>
+            <button type="button" class="navbar-toggler collapsed float-right" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="topFixedNavbar1">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="defensiveSecurity.html">Defensive Security</a></li>
-                            <li><a href="offensiveSecurity.html">Offensive Security</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item dropdown mx-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">About Us</a>
+                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <a class='dropdown-item' href="defensiveSecurity.html">Defensive</a>
+                            <a class='dropdown-item' href="offensiveSecurity.html">Offensive</a>
+                            <a class='dropdown-item' href="faq.html">FAQ</a>
+                        </div>
                     </li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Whats Going On<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="calendar.html">Calendar</a></li>
-                            <li><a href="competitions.html">Competitions</a></li>
-                            <li><a href="meetings.html">Meetings</a></li>
-                            <li><a href="workshops.html">Workshops</a></li>
-                        </ul>
+                    <li class="nav-item dropdown mx-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Whats Going On</a>
+                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <a class='dropdown-item' href="calendar.html">Calendar</a>
+                            <a class='dropdown-item' href="competitions.html">Competitions</a>
+                            <a class='dropdown-item' href="meetings.html">Meetings</a>
+                            <a class='dropdown-item' href="workshops.html">Workshops</a>
+                        </div>
                     </li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Write Ups<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="defensiveSecurity.html">2019</a></li>
-                        </ul>
+                    <li class="nav-item dropdown mx-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Write Ups</a>
+                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                            <a class='dropdown-item' href="defensiveSecurity.html">2019</a>
+                        </div>
                     </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class='nav-item mx-3'>
+                        <a href="contact.html" class='nav-link' role='button'>Contact Us</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -62,28 +64,32 @@
         <p id="bgCode"></p>
     </div>
 
-    <br><br><br><br>
-    <div id="container">
-        <main>
-            <!-- InstanceBeginEditable name="Mainpage" -->
-            <br />
-            <h1>FITSEC Homepage</h1>
-            <br />
-            <img src="img/FITSECLogo.png" alt="FITSEC Official Logo" width="80%" />
-            <br>
-            <h2>Offensive and Defensive Cybsersecurity</h2>
-            <p>FITSEC is Florida Tech's Cyber Security team who is focused on competing in Capture the Flag and Collegiate Cyber Defense Competitions. Not only do we offer students the opportunity to hone their skills with respect to hacking and counter-hacking,
-                but we also are building connections with industry to provide a pathway for potential employment opportunities. We believe the best way to stop a hacker is to know their methods.</p>
-            <h3>CTF (Capture the Flag)</h3>
-            <p>More INFO Here</p>
-            <h3>CCDC (Collegiate Cyber Defense Competition)</h3>
-            <p>More INFO Here</p>
-            <!-- InstanceEndEditable -->
-        </main>
-        <footer>
-            <p>FITSEC @ Florida Tech</p>
-
-        </footer>
+    <div class='fluid-container mt-3 mb-3' id="">
+        <div class='row'>
+            <div class='col-10 offset-1 bg-light text-center'>
+                <!-- InstanceBeginEditable name="Mainpage" -->
+                <br />
+                <h1>FITSEC Homepage</h1>
+                <br />
+                <div class='row justify-content-center'>
+                    <div class='col-xl-6 col-xl-offset-3 col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-12'>
+                        <img src="img/FITSECLogo.png" alt="FITSEC Official Logo" width='95%' class='rounded mx-auto d-block' />
+                    </div>
+                </div>
+                <br>
+                <div class='px-5'>
+                    <h2>Offensive and Defensive Cybsersecurity</h2>
+                    <p>FITSEC is Florida Tech's Cyber Security team who is focused on competing in Capture the Flag and Collegiate Cyber Defense Competitions. Not only do we offer students the opportunity to hone their skills with respect to hacking and counter-hacking,
+                        but we also are building connections with industry to provide a pathway for potential employment opportunities. We believe the best way to stop a hacker is to know their methods.</p>
+                    <h3>CTF (Capture the Flag)</h3>
+                    <p>More INFO Here</p>
+                    <h3>CCDC (Collegiate Cyber Defense Competition)</h3>
+                    <p>More INFO Here</p>
+                    <p>FITSEC @ Florida Tech</p>
+                </div>
+                <!-- InstanceEndEditable -->
+            </div>
+        </div>
     </div>
     <script src="scripts/main.js">
     </script>

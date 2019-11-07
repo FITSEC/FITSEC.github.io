@@ -14,7 +14,7 @@ function toBinary(inDec) {
 }
 
 function genBackground() {
-    var r = 12;
+    var r = Math.floor(Math.random() * 1000000000000);
     var randomize = toBinary(r).toString().split("");
     var set = "";
     for (i = 0; i < randomize.length; i++) {
@@ -22,7 +22,7 @@ function genBackground() {
     }
     console.log(set);
     document.getElementById("bgCode").innerHTML = set;
-    for (i = 0; i < 2000; i++) {
+    for (i = 0; i < 1000; i++) {
         document.getElementById("bgCode").innerHTML += set;
     }
     //$("#background").append(randomize);

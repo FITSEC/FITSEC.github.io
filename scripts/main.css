@@ -7,17 +7,14 @@
     src: url(../fonts/dodger3_1.ttf);
 }
 
-@media (min-width: 768px) {
-    .navbar-nav {
-        float: none;
+@media (min-width: 992px) {
+    .dropdown-menu {
+        margin: 10px auto;
+        width: 200px;
+        left: 50%;
+        margin-left: -100px;
     }
-    .nav.navbar-nav,
-    .navbar-header {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
+} 
 
 body {
     width: 100%;
@@ -45,15 +42,6 @@ h4 {
     font-weight: bold;
 }
 
-#container {
-    width: 80%;
-    border: thick solid #000;
-    background-color: #DDD;
-    margin: auto;
-    text-align: center;
-    color: 000;
-}
-
 #background {
     position: fixed;
     width: 100%;
@@ -71,4 +59,12 @@ h4 {
 .navbar-brand {
     text-align: center;
     font-family: Dodger;
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
 }
