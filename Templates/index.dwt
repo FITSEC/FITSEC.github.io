@@ -24,7 +24,7 @@
                 <a class="navbar-brand" href="../index.html">
                     <img class='nav-image' src="../img/FITSECCrest.png" height="50" />
                 </a>
-                <a class="navbar-brand" href="../index.html">FITSEC</a>
+                <a class="navbar-brand" href="../index.html">FiTSEC</a>
             </div>
             <button type="button" class="navbar-toggler collapsed float-right" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="topFixedNavbar1">
@@ -68,7 +68,7 @@
         <div class='row'>
             <div class='col-10 offset-1 bg-light text-center'>
             <!-- TemplateBeginEditable name="Mainpage" -->
-            <h1>FITSEC Homepage</h1>
+            <h1>FiTSEC Homepage</h1>
             <p>This is currently a work in progress. will be setup soon</p>
             <!-- TemplateEndEditable -->
             </div>
