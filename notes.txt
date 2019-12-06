@@ -1,0 +1,4 @@
+nav issue
+
+background - change to hex; hex based off ascii name of current page
+
