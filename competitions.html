@@ -1,83 +1,144 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>FITSEC - Competitions</title>
     <!-- InstanceEndEditable -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" />
     <link href="img/FITSECCrest.png" rel="icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
     <link href="scripts/main.css" rel="stylesheet" type="text/css" />
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
-</head>
-
-<body class='pt-5' onload="genBackground()">
+  </head>
+  <body class="pt-5" onload="genBackground()">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-lg">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                    <img class='nav-image' src="img/FITSECCrest.png" height="50" />
-                </a>
-                <a class="navbar-brand" href="index.html">FiTSEC</a>
-            </div>
-            <button type="button" class="navbar-toggler collapsed float-right" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="topFixedNavbar1">
-                <ul class="navbar-nav nav-fill w-100">
-                    <li class="nav-item dropdown mx-3">
-                        <a href="about.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">About Us</a>
-                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
-                            <a class='dropdown-item' href="about.html#defensive">Defensive</a>
-                            <a class='dropdown-item' href="about.html#offensive">Offensive</a>
-                            <a class='dropdown-item' href="about.html#faq">FAQ</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown mx-3">
-                        <a href="calendar.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Whats Going On</a>
-                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
-                            <a class='dropdown-item' href="calendar.html">Calendar</a>
-                            <a class='dropdown-item' href="competitions.html">Competitions</a>
-                            <a class='dropdown-item' href="meetings.html">Meetings</a>
-                            <a class='dropdown-item' href="workshops.html">Workshops</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown mx-3">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Write Ups</a>
-                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
-                            <a class='dropdown-item' href="#">2019</a>
-                        </div>
-                    </li>
-                    <li class='nav-item mx-3'>
-                        <a href="contact.html" class='nav-link' role='button'>Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-header"> <a class="navbar-brand" href="index.html">
+            <img class="nav-image" src="img/FITSECCrest.png" height="50" /> </a>
+          <a class="navbar-brand" href="index.html">FiTSEC</a> </div>
+        <button type="button" class="navbar-toggler collapsed float-right" data-toggle="collapse"
+          data-target="#topFixedNavbar1"><span
+            class="sr-only">Toggle
+            navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item dropdown mx-3"> <a href="about.html" class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button">About
+                Us</a>
+              <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="about.html#defensive">Defensive</a>
+                <a class="dropdown-item" href="about.html#offensive">Offensive</a>
+                <a class="dropdown-item" href="about.html#faq">FAQ</a> </div>
+            </li>
+            <li class="nav-item dropdown mx-3"> <a href="calendar.html" class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button">Whats
+                Going On</a>
+              <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="calendar.html">Calendar</a> <a class="dropdown-item"
+                  href="competitions.html">Competitions</a>
+                <a class="dropdown-item" href="meetings.html">Meetings</a> <a class="dropdown-item"
+                  href="workshops.html">Workshops</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown mx-3"> <a href="#" class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button">Write
+                Ups</a>
+              <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">2019</a> </div>
+            </li>
+            <li class="nav-item mx-3"> <a href="contact.html" class="nav-link"
+                role="button">Contact
+                Us</a> </li>
+          </ul>
         </div>
+      </div>
     </nav>
-
     <div id="background">
-        <p id="bgCode"></p>
+      <p id="bgCode"></p>
     </div>
-
-    <div class='fluid-container mt-3 mb-3' id="">
-        <div class='row'>
-            <div class='col-10 offset-1 bg-light text-center'>
-            <!-- InstanceBeginEditable name="Mainpage" -->
-            <h1>FiTSEC Homepage</h1>
-            <p>This is currently a work in progress. will be setup soon</p>
-            <!-- InstanceEndEditable -->
-            </div>
-        </div>
+    <div class="fluid-container mt-3 mb-3" id="">
+      <div class="row">
+        <div class="col-10 offset-1 bg-light text-center">
+          <!-- InstanceBeginEditable name="Mainpage" -->
+          <h1>FiTSEC Homepage</h1>
+          <br />
+          <h3>CSAW CTF Qualifier</h3>
+          <p> CSAW CTF is an entry-level CTF hosted by NYU every year in the
+            fall. Categories include Pwnable, Reverse Engineering, Web
+            exploitation, Cryptography, and Forensics. For more information
+            follow the link below.
+            <a href="https://csaw.engineering.nyu.edu/ctf">CSAW CTF</a> </p>
+          <h3>Southeastern Collegiate Penetration Testing Competition Qualifier</h3>
+          <p> The CPTC is a competition that focuses on network security
+            auditing. It mimics a real-life penetration test for students to
+            test their skills. At the end of the competition the team writes a
+            report based on their findings. Additionally, competitors can be
+            asked to perform various assessments in addition to their primary
+            role of penetration testing. See the link below for additional
+            information. <a href="https://nationalcptc.org/">National CPTC</a>
+          </p>
+          <h3>Raymond James CTF</h3>
+          <p> Raymond James CTF is an invitational CTF hosted by Raymond James
+            in Tampa, Florida. In addition to competing against other collegiate
+            teams, the FBI and Secret Service attend the competition as well.
+            This competition is heavily forensics based. This CTF is used as a
+            recruiting tool for Raymond James. </p>
+          <h3>Duel Factor CTF</h3>
+          <p> Duel Factor CTF is hosted annually at the Florida Cyber
+            Conference. This CTF is more penetration testing and forensics
+            oriented. For information on last year's CTF please see the link
+            below. <a href="https://flcybercon.com/2018/05/23/ctf-announced/">Duel
+              Factor CTF</a></p>
+          <h3>HiveStorm Defensive CTF</h3>
+          <p> HiveStorm is a cybder defense competition for college students.
+            The competition is four hours long. You are provided 5 machines to
+            patch, reconfigure, and remove malware from to be more secure. For
+            more information on HiveStorm see the link below. <a href="https://hivestorm.org/">HiveStorm
+              Defensive CTF</a> </p>
+          <h3>Department of Energy Cyberforce Competition</h3>
+          <p>
+            The DoE Cyberforce Challenge is a blue teaming event where competitors are
+            given a compromised network where they have to harden it before the competition
+            During the competition, the teams work together to keep critical services up.
+            A red team will actively try to bring down services, deface websites, and cause
+            problems for the blue team. The competitors are scored on their ability to keep
+            the systems up, react to injects, and defeat red team attacks. For mor information
+            see the link below.
+            <a href="https://cyberforcecompetition.com/">DoE Cyberforce Challenge</a>
+          </p>
+          <h3>Southeastern Collegiate Cyber Defense Competition Qualifier</h3>
+          <p>
+            CCDC is a defensive event where competitors are given a compromised network
+            that they must take back from the attackers and set up defensive measures to
+            keep them out. For more information see the link below.
+            <a href="https://seccdc.org/">CCDC</a>
+          </p>
+          <h3>Sunshine CTF</h3>
+          <p>
+            Sunshine CTF is an online CTF but also has an on-site CTF as well. This CTF is 
+            hosted in conjunction with B-Sides Orlando security conference. This is a fairly
+            standard jeopardy style CTF.
+          </p>
+          <h3>National Cyber League</h3>
+          <p>
+            The NCL is an offensive and defensive based CTF that has individual and team competitions
+            throughout the competition season. For more information see the link below.
+            <a href="https://www.nationalcyberleague.org/">NCL</a>
+          </p>
+          <!-- InstanceEndEditable --> </div>
+      </div>
     </div>
     <script src="scripts/main.js">
     </script>
     <script src="scripts/backgroundGen.js"></script>
-</body>
-
-
-<!-- InstanceEnd --></html>
+    
+  </body>
+  <!-- InstanceEnd -->
+</html>
