@@ -1,4 +1,6 @@
 // JavaScript Document
+
+/*
 file = location.pathname.split("/").slice(-1)[0];
 x = document.getElementsByTagName("nav")[0].getElementsByTagName("li");
 var y;
@@ -8,6 +10,7 @@ for (var i = 0; i < x.length; i++) {
         x[i].className = "active";
     }
 }
+*/
 
 $(window).on('load resize', function() {
     if(this.matchMedia('(min-width: 992px)').matches) {
