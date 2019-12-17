@@ -31,6 +31,9 @@ function toHex(inDec) {
 
 function genHex() {
     var file = location.pathname.split("/").slice(-1)[0].split(".")[0];
+    if (file === "") {
+        file = "FITSEC";
+    }
     var result = "";
     for (var i = 0; i < file.length; i++) {
         result += toHex(file.substring(i, i + 1).charCodeAt()) + " ";
