@@ -48,9 +48,7 @@ var background = document.getElementById("bgCode");
 function genBackground() {
     background.innerHTML += key;
     var width = screen.width / background.innerHTML.length;
-    console.log(width);
     var height = screen.height / background.clientHeight;
-    console.log(height);
     for (var i = 0; i < width * height - 1; i++) {
         background.innerHTML += key;
     }
