@@ -38,14 +38,22 @@ function genHex() {
     return result + "20 ";
 }
 
+
+var key = genHex();
+var background = document.getElementById("bgCode");
+
 function genBackground() {
-    var key = genHex();
-    var set = "";
-    for (i = 0; i < 10; i++) {
-        set += key;
-    }
-    document.getElementById("bgCode").innerHTML = set;
-    for (i = 0; i < 1000; i++) {
-        document.getElementById("bgCode").innerHTML += set;
+    background.innerHTML += key;
+    var width = screen.width / background.innerHTML.length;
+    console.log(width);
+    var height = screen.height / background.clientHeight;
+    console.log(height);
+    for (var i = 0; i < width * height - 1; i++) {
+        background.innerHTML += key;
     }
 }
+$(document).on("load resize", function() {
+    while (background.clientHeight < screen.height || background.clientWidth < screen.width) {
+        background.innerHTML += key;
+    }
+});
