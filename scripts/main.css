@@ -7,6 +7,11 @@
     src: url(../fonts/dodger3_1.ttf);
 }
 
+div.fluid-container p, div.fluid-container ul {
+	text-align:justify;
+	padding-left:50px;
+	padding-right:50px;
+}
 @media (min-width: 992px) {
     .dropdown-menu {
         margin: 10px auto;
@@ -14,6 +19,12 @@
         left: 50%;
         margin-left: -100px;
     }
+	div.fluid-container p, div.fluid-container ul {
+		text-align:justify;
+		padding-left:150px;
+		padding-right:150px;
+	}
+
 } 
 
 body {
@@ -59,11 +70,6 @@ h4 {
 .navbar-brand {
     text-align: center;
     font-family: Dodger;
-}
-div.fluid-container p, div.fluid-container ul {
-	text-align:justify;
-	padding-left:150px;
-	padding-right:150px;
 }
 
 .dropdown-toggle::after {
