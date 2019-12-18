@@ -7,11 +7,13 @@
     src: url(../fonts/dodger3_1.ttf);
 }
 
-div.fluid-container p, div.fluid-container ul {
-	text-align:justify;
-	padding-left:50px;
-	padding-right:50px;
+div.fluid-container p,
+div.fluid-container ul {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 @media (min-width: 992px) {
     .dropdown-menu {
         margin: 10px auto;
@@ -19,13 +21,13 @@ div.fluid-container p, div.fluid-container ul {
         left: 50%;
         margin-left: -100px;
     }
-	div.fluid-container p, div.fluid-container ul {
-		text-align:justify;
-		padding-left:150px;
-		padding-right:150px;
-	}
-
-} 
+    div.fluid-container p,
+    div.fluid-container ul {
+        text-align: justify;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
 
 body {
     width: 100%;
@@ -73,9 +75,9 @@ h4 {
 }
 
 .dropdown-toggle::after {
-   transition: transform 0.15s linear; 
+    transition: transform 0.15s linear;
 }
 
 .show.dropdown .dropdown-toggle::after {
-  transform: translateY(3px);
+    transform: translateY(3px);
 }
